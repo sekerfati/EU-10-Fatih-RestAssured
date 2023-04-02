@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a97bc7-171b-4e82-bff2-362a8cfd3b77" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/SpartanGetRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/HrGetRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/SpartanGetRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/SpartanGetRequests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +54,34 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SpartanGetRequests.test1">
-    <configuration name="SimpleGetRequest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HrGetRequest.test2">
+    <configuration name="HrGetRequest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day1.*" />
+          <option name="PATTERN" value="com.cydeo.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day1" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day1.SimpleGetRequest" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.HrGetRequest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrGetRequest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU-10-Fatih-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.HrGetRequest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,10 +103,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanGetRequests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU-10-Fatih-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.SpartanGetRequests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanGetRequests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU-10-Fatih-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.SpartanGetRequests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HrGetRequest.test2" />
+        <item itemvalue="JUnit.HrGetRequest.test1" />
+        <item itemvalue="JUnit.SpartanGetRequests.test3" />
+        <item itemvalue="JUnit.SpartanGetRequests.test2" />
         <item itemvalue="JUnit.SpartanGetRequests.test1" />
-        <item itemvalue="JUnit.SimpleGetRequest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680137493489</updated>
-      <workItem from="1680137494897" duration="5279000" />
+      <workItem from="1680137494897" duration="13921000" />
     </task>
     <task id="LOCAL-00001" summary="created a project">
       <created>1680138917279</created>
@@ -117,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680139100550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some changes">
+      <created>1680355783029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680355783030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
