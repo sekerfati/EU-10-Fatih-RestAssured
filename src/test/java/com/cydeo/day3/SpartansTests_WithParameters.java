@@ -168,10 +168,6 @@ assertEquals(200, response.statusCode());
         assertEquals("application/json", response.contentType());
 
 
-        //verify NotFound in the json payload/body
-     //   assertTrue(response.body().asString().contains("Not Found"));
-
-
 
         //"Female" should be in response payload/body
         assertTrue(response.body().asString().contains("Female"));
@@ -186,6 +182,8 @@ assertEquals(200, response.statusCode());
 
 
     }
+
+
 
 
 
