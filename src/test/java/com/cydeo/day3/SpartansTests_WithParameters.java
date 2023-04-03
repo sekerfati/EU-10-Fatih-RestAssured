@@ -1,5 +1,7 @@
 package com.cydeo.day3;
 
+
+
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeAll;
@@ -12,7 +14,6 @@ import java.util.Map;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.*;
 import static org.junit.jupiter.api.Assertions.*;
-
 
 import static io.restassured.RestAssured.*;
 import static org.junit.jupiter.api.Assertions.*;
@@ -97,6 +98,94 @@ assertEquals(200, response.statusCode());
     }
 
 
+
+ /*
+        Given accept type is Json
+        And query parameter values are:
+        gender|Female
+        nameContains|e
+        When user sends GET request to /api/spartans/search
+        Then response status code should be 200
+        And response content-type: application/json
+        And "Female" should be in response payload
+        And "Janette" should be in response payload
+     */
+
+
+    @DisplayName("GET request to /api/spartans/search with Query Params")
+    @Test
+    public void test3(){
+//                                 .log().all() will display everything in the console
+        Response response = given().log().all()
+                .accept(ContentType.JSON)
+                .and().queryParam("nameContains", "e")
+                .and().queryParam("gender", "Female")
+                .when()
+                .get("/api/spartans/search");
+
+
+//        verify response status code should be 200
+        assertEquals(200, response.statusCode());
+
+
+//        verify response content-type: application/json
+        assertEquals("application/json", response.contentType());
+
+
+//        verify "Female" should be in response payload/body
+        assertTrue(response.body().asString().contains("Female"));
+
+
+//        verify "Janette" should be in response payload
+        assertTrue(response.body().asString().contains("Janette"));
+
+
+
+    }
+
+
+    @DisplayName("GET request to /api/spartans/search with Query Params (MAP)")
+    @Test
+    public void test4(){
+
+        //create a map and add query parameters
+        Map<String, Object> queryMap= new HashMap<>();
+        queryMap.put("nameContains", "e");
+        queryMap.put("gender", "Female");
+      //  System.out.println("queryMap = " + queryMap);
+        Response response = given()
+                .accept(ContentType.JSON)
+                .log().all()
+                .and().queryParams(queryMap)
+                .when().get("/api/spartans/search");
+
+
+        //verify status code 200
+        assertEquals(200, response.statusCode());
+
+
+        //verify content type
+        assertEquals("application/json", response.contentType());
+
+
+        //verify NotFound in the json payload/body
+     //   assertTrue(response.body().asString().contains("Not Found"));
+
+
+
+        //"Female" should be in response payload/body
+        assertTrue(response.body().asString().contains("Female"));
+
+
+
+        //"Janette" should be in response payload/body
+        assertTrue(response.body().asString().contains("Janette"));
+
+
+
+
+
+    }
 
 
 
