@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a97bc7-171b-4e82-bff2-362a8cfd3b77" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartansTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day4/ORDSApi_TestWithPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day4/SpartansWithJsonPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestsWithPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestsWithPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,50 +54,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SpartanTestsWithPath.test2">
-    <configuration name="ORDS_API_TestsWithParameters.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpartansWithJsonPath.test1">
+    <configuration name="ORDSApi_TestWithPath.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day3.*" />
+          <option name="PATTERN" value="com.cydeo.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.ORDS_API_TestsWithParameters" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day4" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day4.ORDSApi_TestWithPath" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ORDS_API_TestsWithParameters.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ORDSApi_TestWithPath.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day3.*" />
+          <option name="PATTERN" value="com.cydeo.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.ORDS_API_TestsWithParameters" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day4" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day4.ORDSApi_TestWithPath" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanTestsWithPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU-10-Fatih-RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.SpartanTestsWithPath" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,13 +119,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartansWithJsonPath.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU-10-Fatih-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day4" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day4.SpartansWithJsonPath" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartansWithJsonPath.test1" />
+        <item itemvalue="JUnit.ORDSApi_TestWithPath.test2" />
+        <item itemvalue="JUnit.ORDSApi_TestWithPath.test1" />
         <item itemvalue="JUnit.SpartanTestsWithPath.test2" />
         <item itemvalue="JUnit.SpartanTestsWithPath.test1" />
-        <item itemvalue="JUnit.SpartanTestsWithPath" />
-        <item itemvalue="JUnit.ORDS_API_TestsWithParameters.test2" />
-        <item itemvalue="JUnit.ORDS_API_TestsWithParameters.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680137493489</updated>
-      <workItem from="1680137494897" duration="34231000" />
+      <workItem from="1680137494897" duration="42117000" />
     </task>
     <task id="LOCAL-00001" summary="created a project">
       <created>1680138917279</created>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680532383289</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="some changes">
+      <created>1680534685602</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680534685602</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
