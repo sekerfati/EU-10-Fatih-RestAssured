@@ -73,5 +73,26 @@ public class HamcrestMatchersApiTest {
     }
 
 
+    @DisplayName("GET request to students/all and chaining")
+    @Test
+    public void studentsTest(){
+
+        //verify    it has students' first names as Mark, ertret, Mike
+        given().accept(ContentType.JSON)
+                .and()
+                .when()
+                .get("https://api.training.cydeo.com/student/all")
+                .then()
+                .statusCode(200)
+                .and()
+                .body("students.firstName",hasItems("Mark", "ertret", "Mike"));
+
+
+
+    }
+
+
+
+
 
 }

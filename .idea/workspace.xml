@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a97bc7-171b-4e82-bff2-362a8cfd3b77" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.HamcrestMatchersApiTest.teacherData">
+  <component name="RunManager" selected="JUnit.HamcrestMatchersApiTest.teachersTest">
     <configuration name="HamcrestMatchersApiTest.teacherData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
@@ -66,6 +65,22 @@
       <option name="PACKAGE_NAME" value="com.cydeo.day5" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HamcrestMatchersApiTest" />
       <option name="METHOD_NAME" value="teacherData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestMatchersApiTest.teachersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU-10-Fatih-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HamcrestMatchersApiTest" />
+      <option name="METHOD_NAME" value="teachersTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,29 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ORDSApiWithJsonPath.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU-10-Fatih-RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day4" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day4.ORDSApiWithJsonPath" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HamcrestMatchersApiTest.teachersTest" />
         <item itemvalue="JUnit.HamcrestMatchersApiTest.teacherData" />
         <item itemvalue="JUnit.HamcrestMatchersApiTest.test1" />
         <item itemvalue="JUnit.HamcrestMatchersIntro.stringHamcrest" />
         <item itemvalue="JUnit.HamcrestMatchersIntro.test1" />
-        <item itemvalue="JUnit.ORDSApiWithJsonPath.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680137493489</updated>
-      <workItem from="1680137494897" duration="57510000" />
+      <workItem from="1680137494897" duration="58347000" />
     </task>
     <task id="LOCAL-00001" summary="created a project">
       <created>1680138917279</created>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680783299919</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some changes">
+      <created>1680789382544</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680789382544</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
