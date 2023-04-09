@@ -78,7 +78,8 @@ public class HamcrestMatchersApiTest {
     public void studentsTest(){
 
         //verify    it has students' first names as Mark, ertret, Mike
-        given().accept(ContentType.JSON)
+               given().log().all()
+               .accept(ContentType.JSON)
                 .and()
                 .when()
                 .get("https://api.training.cydeo.com/student/all")
