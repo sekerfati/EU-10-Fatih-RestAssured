@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a97bc7-171b-4e82-bff2-362a8cfd3b77" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/JSONtoJAVATest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/ORDSHamcrestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/SpartanAPIvsDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/SpartanHamcrestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/ORDSPojoGetRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/SpartanPojoGetRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Spartan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/PutAndPatchRequestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/SpartanPostRequestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Regions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartansTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartansTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/ORDSPojoGetRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/ORDSPojoGetRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Spartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Spartan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +49,19 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/fatih/OneDrive/Skrivbord/ideaprojects/EU-10-Fatih-RestAssured",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fatih/OneDrive/Skrivbord/ideaprojects/EU-10-Fatih-RestAssured&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\fatih\OneDrive\Skrivbord\ideaprojects\EU-10-Fatih-RestAssured" />
@@ -77,81 +70,82 @@
       <recent name="com.cydeo.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ORDSPojoGetRequestTest.regionTest">
-    <configuration name="ORDSPojoGetRequestTest.regionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PutAndPatchRequestDemo.deleteSpartan">
+    <configuration name="PutAndPatchRequestDemo.PATCHRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day6.*" />
+          <option name="PATTERN" value="com.cydeo.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.ORDSPojoGetRequestTest" />
-      <option name="METHOD_NAME" value="regionTest" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
+      <option name="METHOD_NAME" value="PATCHRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanAPIvsDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PutAndPatchRequestDemo.PUTRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
+          <option name="PATTERN" value="com.cydeo.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.SpartanAPIvsDB" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanPojoGetRequestTest.oneSpartanPojo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU-10-Fatih-RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.SpartanPojoGetRequestTest" />
-      <option name="METHOD_NAME" value="oneSpartanPojo" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
+      <option name="METHOD_NAME" value="PUTRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanPojoGetRequestTest.spartanSearchWithPojo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PutAndPatchRequestDemo.deleteSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day6.*" />
+          <option name="PATTERN" value="com.cydeo.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.SpartanPojoGetRequestTest" />
-      <option name="METHOD_NAME" value="spartanSearchWithPojo" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
+      <option name="METHOD_NAME" value="deleteSpartan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanPojoGetRequestTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanPostRequestDemo.postMethod3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day6.*" />
+          <option name="PATTERN" value="com.cydeo.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.SpartanPojoGetRequestTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanPostRequestDemo" />
+      <option name="METHOD_NAME" value="postMethod3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanPostRequestDemo.postMethod4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU-10-Fatih-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanPostRequestDemo" />
+      <option name="METHOD_NAME" value="postMethod4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ORDSPojoGetRequestTest.regionTest" />
-        <item itemvalue="JUnit.SpartanPojoGetRequestTest.test3" />
-        <item itemvalue="JUnit.SpartanPojoGetRequestTest.spartanSearchWithPojo" />
-        <item itemvalue="JUnit.SpartanPojoGetRequestTest.oneSpartanPojo" />
-        <item itemvalue="JUnit.SpartanAPIvsDB" />
+        <item itemvalue="JUnit.PutAndPatchRequestDemo.deleteSpartan" />
+        <item itemvalue="JUnit.PutAndPatchRequestDemo.PATCHRequest" />
+        <item itemvalue="JUnit.PutAndPatchRequestDemo.PUTRequest" />
+        <item itemvalue="JUnit.SpartanPostRequestDemo.postMethod4" />
+        <item itemvalue="JUnit.SpartanPostRequestDemo.postMethod3" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +169,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680137493489</updated>
-      <workItem from="1680137494897" duration="83846000" />
+      <workItem from="1680137494897" duration="91928000" />
+      <workItem from="1681158814843" duration="12990000" />
     </task>
     <task id="LOCAL-00001" summary="created a project">
       <created>1680138917279</created>
@@ -282,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680790126914</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="some changes">
+      <created>1681073787376</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681073787376</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
