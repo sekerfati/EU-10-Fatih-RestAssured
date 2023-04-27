@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a97bc7-171b-4e82-bff2-362a8cfd3b77" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/PutAndPatchRequestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/SpartanPostRequestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Regions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/Formula1XmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/GovXmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/JsonSchemaValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/ResponseTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SSLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SpartanWithXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/allSpartansSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/ParameterizedTestInJunit5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/SCVFileSourceParameterizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/SCVSourceParameterizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/TestLifeCycleAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day8/BookItTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day8/SpartanWithAuthTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanAuthTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BookItQa3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SingleSpartanSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Vytracktestdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/postalcode.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/searchSpartansSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/spartanPostJsonSchema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/ORDSPojoGetRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/ORDSPojoGetRequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Spartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Spartan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +66,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fatih/OneDrive/Skrivbord/ideaprojects/EU-10-Fatih-RestAssured&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fatih/OneDrive/Skrivbord/ideaprojects/EU-10-Fatih-RestAssured/src/test/java/com/cydeo/day10&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -64,88 +76,90 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fatih\OneDrive\Skrivbord\ideaprojects\EU-10-Fatih-RestAssured\src\test\java\com\cydeo\day10" />
+      <recent name="C:\Users\fatih\OneDrive\Skrivbord\ideaprojects\EU-10-Fatih-RestAssured\src\test\resources" />
       <recent name="C:\Users\fatih\OneDrive\Skrivbord\ideaprojects\EU-10-Fatih-RestAssured" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cydeo.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PutAndPatchRequestDemo.deleteSpartan">
-    <configuration name="PutAndPatchRequestDemo.PATCHRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SCVFileSourceParameterizedTest.zipCodeTestWithFile">
+    <configuration name="ParameterizedTestInJunit5.ZipcodesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
-      <option name="METHOD_NAME" value="PATCHRequest" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.ParameterizedTestInJunit5" />
+      <option name="METHOD_NAME" value="ZipcodesTest(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutAndPatchRequestDemo.PUTRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterizedTestInJunit5.testMultipleNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
-      <option name="METHOD_NAME" value="PUTRequest" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.ParameterizedTestInJunit5" />
+      <option name="METHOD_NAME" value="testMultipleNames(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutAndPatchRequestDemo.deleteSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SCVFileSourceParameterizedTest.zipCodeTestWithFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
-      <option name="METHOD_NAME" value="deleteSpartan" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.SCVFileSourceParameterizedTest" />
+      <option name="METHOD_NAME" value="zipCodeTestWithFile(java.lang.String,java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanPostRequestDemo.postMethod3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SCVSourceParameterizedTest.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanPostRequestDemo" />
-      <option name="METHOD_NAME" value="postMethod3" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.SCVSourceParameterizedTest" />
+      <option name="METHOD_NAME" value="testAddition(int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanPostRequestDemo.postMethod4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SCVSourceParameterizedTest.zipCodeMultiInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanPostRequestDemo" />
-      <option name="METHOD_NAME" value="postMethod4" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.SCVSourceParameterizedTest" />
+      <option name="METHOD_NAME" value="zipCodeMultiInputTest(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PutAndPatchRequestDemo.deleteSpartan" />
-        <item itemvalue="JUnit.PutAndPatchRequestDemo.PATCHRequest" />
-        <item itemvalue="JUnit.PutAndPatchRequestDemo.PUTRequest" />
-        <item itemvalue="JUnit.SpartanPostRequestDemo.postMethod4" />
-        <item itemvalue="JUnit.SpartanPostRequestDemo.postMethod3" />
+        <item itemvalue="JUnit.SCVFileSourceParameterizedTest.zipCodeTestWithFile" />
+        <item itemvalue="JUnit.SCVSourceParameterizedTest.zipCodeMultiInputTest" />
+        <item itemvalue="JUnit.SCVSourceParameterizedTest.testAddition" />
+        <item itemvalue="JUnit.ParameterizedTestInJunit5.ZipcodesTest" />
+        <item itemvalue="JUnit.ParameterizedTestInJunit5.testMultipleNames" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +185,9 @@
       <updated>1680137493489</updated>
       <workItem from="1680137494897" duration="91928000" />
       <workItem from="1681158814843" duration="12990000" />
+      <workItem from="1681503616374" duration="7236000" />
+      <workItem from="1682323549794" duration="22789000" />
+      <workItem from="1682585624155" duration="6016000" />
     </task>
     <task id="LOCAL-00001" summary="created a project">
       <created>1680138917279</created>
