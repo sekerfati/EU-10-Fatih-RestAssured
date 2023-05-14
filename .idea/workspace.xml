@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a97bc7-171b-4e82-bff2-362a8cfd3b77" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/BookITParameterized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/ExcelUtilPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/MethodSourceParameterizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookItSpecTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/OldRestAssuredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/SpartanSpecTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/SpartanSpecTestOriginal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BookitTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanNewBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/MockApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +41,19 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/fatih/OneDrive/Skrivbord/ideaprojects/EU-10-Fatih-RestAssured",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fatih/OneDrive/Skrivbord/ideaprojects/EU-10-Fatih-RestAssured&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\fatih\OneDrive\Skrivbord\ideaprojects\EU-10-Fatih-RestAssured" />
@@ -75,22 +64,7 @@
       <recent name="com.cydeo.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookItSpecTest.test1">
-    <configuration name="BookITParameterized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU-10-Fatih-RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.BookITParameterized" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MockApi.test1">
     <configuration name="BookITParameterized.bookItTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
@@ -139,6 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MockApi.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU-10-Fatih-RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day12" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day12.MockApi" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OldRestAssuredTest.getAllSpartans" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU-10-Fatih-RestAssured" />
       <extension name="coverage">
@@ -157,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockApi.test1" />
         <item itemvalue="JUnit.BookItSpecTest.test1" />
         <item itemvalue="JUnit.BookItSpecTest.test2" />
         <item itemvalue="JUnit.OldRestAssuredTest.getAllSpartans" />
         <item itemvalue="JUnit.BookITParameterized.bookItTest" />
-        <item itemvalue="JUnit.BookITParameterized" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +167,10 @@
       <workItem from="1681158814843" duration="12990000" />
       <workItem from="1681503616374" duration="7236000" />
       <workItem from="1682323549794" duration="22789000" />
-      <workItem from="1682585624155" duration="23421000" />
+      <workItem from="1682585624155" duration="24084000" />
+      <workItem from="1682924976339" duration="284000" />
+      <workItem from="1682931994667" duration="71000" />
+      <workItem from="1684056187188" duration="3142000" />
     </task>
     <task id="LOCAL-00001" summary="created a project">
       <created>1680138917279</created>
@@ -298,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682596042164</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="some changes">
+      <created>1682700722479</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682700722479</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
